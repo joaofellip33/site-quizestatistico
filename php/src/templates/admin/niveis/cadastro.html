@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cadastro de Niveis</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Cadastro de Niveis</h1>
+        
+        <form method="post" action="./index.php?controle=nivel&acao=salvar">
+            {{ mensagem}}
+            <br /><br />
+            
+            <div>
+                <!-- Ocultar id, desnecessário exibir, foi usado apenas para verificação de funcionabilidade by Mayko -->
+                <label for="id">ID</label>
+                <input type="text" name="id" id="id" value="{{ nivel.id }}"/>
+                <br /><br />
+               
+                <label for="nivel">Nível</label>
+                <input type="text" name="nivel" id="nivel" value="{{ nivel.nivel }}" />
+                <br /><br />
+                
+                <input type="submit" value="Salvar" />
+            </div>
+            
+        </form>
+    </body>
+</html>

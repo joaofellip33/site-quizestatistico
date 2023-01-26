@@ -1,0 +1,32 @@
+.final{
+    width: 1600px;
+    height: 800px;
+    background: rgb(240, 240, 240);
+    position: fixed;
+}
+center{
+    color: black;
+    position: relative;
+    top: 120px;
+    
+}
+
+.imagem{
+    position: relative;
+    top: -40px;
+    left: 600px;
+}
+
+.reslth1{
+    font-size: 40px;
+    padding: 0;
+}
+
+.reslt{
+    font-size: 25px;
+    padding: 0;
+}
+
+.link{
+    font-size: 17px;
+}
